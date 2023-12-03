@@ -5,10 +5,14 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "start": "react-scripts start",
     "build": "vite build",
+    "dev": "vite",
+    "eject": "react-scripts eject",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "react-scripts test"
+
   },
   "dependencies": {
     "react": "^18.2.0",
