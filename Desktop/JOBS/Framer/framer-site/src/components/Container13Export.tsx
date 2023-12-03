@@ -19,7 +19,7 @@ const FaqItem: React.FC<FaqItemProps> = ({ question, answer }) => {
     <FaqContainer>
       <FaqHeader onClick={toggleAccordion}>
         {question}
-        {isOpen ? <BiSolidMinusCircle  color={"#CACAD1"} size={"30px"}/> : <BsFillPlusCircleFill color={"#CACAD1"} size={"25px"} />}
+        {isOpen ? <BiSolidMinusCircle  color={"#CACAD1"} size={"30px"} /> : <BsFillPlusCircleFill color={"#CACAD1"} size={"25px"} />}
       </FaqHeader>
       {isOpen && <FaqAnswer>{answer}</FaqAnswer>}
     </FaqContainer>

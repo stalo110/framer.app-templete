@@ -28,7 +28,7 @@ const Footer = () => {
         </div>
 
         <div style={{width: "7%", marginTop: "60px"}}>
-            <h1 style={{fontSize: "22px", marginTop: "0px", color: "#2D2D2D"}}>Products</h1>
+            <h1 style={{fontSize: "22px", marginTop: "0px", color: "#2D2D2D", fontWeight: "600"}}>Products</h1>
             <Para2>Features</Para2>
             <Para2>Testimonials</Para2>
             <Para2>Pricing</Para2>
@@ -37,7 +37,7 @@ const Footer = () => {
         </div>
 
         <div style={{width: "8%", marginTop: "60px"}}>
-        <h1 style={{fontSize: "22px", marginTop: "0px", color: "#2D2D2D"}}>Resources</h1>
+        <h1 style={{fontSize: "22px", marginTop: "0px", color: "#2D2D2D", fontWeight: "600"}}>Resources</h1>
             <Para2>Change log</Para2>
             <Para2>Help center</Para2>
             <Para2>Blog</Para2>
@@ -45,7 +45,7 @@ const Footer = () => {
         </div>
         
         <div style={{width: "6%", marginTop: "60px"}}>
-        <h1 style={{fontSize: "22px", marginTop: "0px", color: "#2D2D2D"}}>Others</h1>
+        <h1 style={{fontSize: "22px", marginTop: "0px", color: "#2D2D2D", fontWeight: "600"}}>Others</h1>
             <Para2>Privacy</Para2>
             <Para2>Terms</Para2>
             <Para2>Affiliation</Para2>
@@ -53,7 +53,7 @@ const Footer = () => {
         </div>
         
         <div style={{width: "22%", marginTop: "60px"}}>
-        <h1 style={{fontSize: "22px", marginTop: "0px", color: "#2D2D2D"}}>From the blog</h1>
+        <h1 style={{fontSize: "22px", marginTop: "0px", color: "#2D2D2D", fontWeight: "600"}}>From the blog</h1>
             <Para2>
 Mastering Your Schedule: Top Time Management Techniques for Balancing Work and Life</Para2>
             <Para2>Organizing Your Calendar for Enhanced Productivity and Focus</Para2>
@@ -98,9 +98,9 @@ const Logo = styled.div`
 
 const LogoText = styled.div`
   color: #2D2D2D;
-  font-weight: bold;
+  font-weight: 600;
   margin-left: 5px;
-  font-size: 30px;
+  font-size: 25px;
 `;
 const Fontwrapper = styled.div`
   background: #ffffff;

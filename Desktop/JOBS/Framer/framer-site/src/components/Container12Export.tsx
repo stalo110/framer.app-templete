@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { IoCheckmark } from "react-icons/io5";
+import { IoCheckmarkSharp } from "react-icons/io5";
 
 const Container12Export = () => {
   return (
@@ -90,23 +90,23 @@ const Container12Export = () => {
      What's included:{" "}
           </p>
        <div style={{display: "flex",  marginLeft: "30px"}}>
-       <IoCheckmark size={"25px"} color={"#CCABF7"}  />
+       <IoCheckmarkSharp size={"25px"} color={"#CCABF7"}/>
        <p style={{color: "#73737F", fontSize: "16px", marginLeft: "10px", marginTop: "5px", fontWeight: "400", listStyle: "none", display: "flex"}}>  A cool feature</p>   
        </div>
        <div style={{display: "flex",  marginLeft: "30px"}}>
-       <IoCheckmark size={"25px"} color={"#CCABF7"}  />
+       <IoCheckmarkSharp size={"25px"} color={"#CCABF7"}  />
        <p style={{color: "#73737F", fontSize: "16px", marginLeft: "10px", marginTop: "5px", fontWeight: "400", listStyle: "none", display: "flex"}}>  A basic feature</p>   
        </div>
        <div style={{display: "flex",  marginLeft: "30px"}}>
-       <IoCheckmark size={"25px"} color={"#CCABF7"}  />
+       <IoCheckmarkSharp size={"25px"} color={"#CCABF7"}  />
        <p style={{color: "#73737F", fontSize: "16px", marginLeft: "10px", marginTop: "5px", fontWeight: "400", listStyle: "none", display: "flex"}}>A top feature with limitations</p>   
        </div>
        <div style={{display: "flex",  marginLeft: "30px"}}>
-       <IoCheckmark size={"25px"} color={"#CCABF7"}  />
+       <IoCheckmarkSharp size={"25px"} color={"#CCABF7"}  />
        <p style={{color: "#73737F", fontSize: "16px", marginLeft: "10px", marginTop: "5px", fontWeight: "400", listStyle: "none", display: "flex"}}>An incredible feature so useful</p>   
        </div>
        <div style={{display: "flex",  marginLeft: "30px"}}>
-       <IoCheckmark size={"25px"} color={"#CCABF7"}  />
+       <IoCheckmarkSharp size={"25px"} color={"#CCABF7"}  />
        <p style={{color: "#73737F", fontSize: "16px", marginLeft: "10px", marginTop: "5px", fontWeight: "400", listStyle: "none", display: "flex"}}> A top feature</p>   
        </div>
           
@@ -202,23 +202,23 @@ const Container12Export = () => {
 All Free features, plus:{" "}
           </p>
        <div style={{display: "flex",  marginLeft: "30px"}}>
-       <IoCheckmark size={"25px"} color={"#CCABF7"}  />
+       <IoCheckmarkSharp size={"25px"} color={"#CCABF7"}  />
        <p style={{color: "#73737F", fontSize: "16px", marginLeft: "10px", marginTop: "5px", fontWeight: "400", listStyle: "none", display: "flex"}}>  A cool feature</p>   
        </div>
        <div style={{display: "flex",  marginLeft: "30px"}}>
-       <IoCheckmark size={"25px"} color={"#CCABF7"}  />
+       <IoCheckmarkSharp size={"25px"} color={"#CCABF7"}  />
        <p style={{color: "#73737F", fontSize: "16px", marginLeft: "10px", marginTop: "5px", fontWeight: "400", listStyle: "none", display: "flex"}}>  A basic feature</p>   
        </div>
        <div style={{display: "flex",  marginLeft: "30px"}}>
-       <IoCheckmark size={"25px"} color={"#CCABF7"}  />
+       <IoCheckmarkSharp size={"25px"} color={"#CCABF7"}  />
        <p style={{color: "#73737F", fontSize: "16px", marginLeft: "10px", marginTop: "5px", fontWeight: "400", listStyle: "none", display: "flex"}}>A top feature with limitations</p>   
        </div>
        <div style={{display: "flex",  marginLeft: "30px"}}>
-       <IoCheckmark size={"25px"} color={"#CCABF7"}  />
+       <IoCheckmarkSharp size={"25px"} color={"#CCABF7"}  />
        <p style={{color: "#73737F", fontSize: "16px", marginLeft: "10px", marginTop: "5px", fontWeight: "400", listStyle: "none", display: "flex"}}>An incredible feature so useful</p>   
        </div>
        <div style={{display: "flex",  marginLeft: "30px"}}>
-       <IoCheckmark size={"25px"} color={"#CCABF7"}  />
+       <IoCheckmarkSharp size={"25px"} color={"#CCABF7"}  />
        <p style={{color: "#73737F", fontSize: "16px", marginLeft: "10px", marginTop: "5px", fontWeight: "400", listStyle: "none", display: "flex"}}> A cool feature</p>   
        </div>
           
@@ -293,27 +293,27 @@ All Free features, plus:{" "}
 All Free features, plus:{" "}
           </p>
        <div style={{display: "flex",  marginLeft: "30px"}}>
-       <IoCheckmark size={"25px"} color={"#CCABF7"}  />
+       <IoCheckmarkSharp size={"25px"} color={"#CCABF7"}  />
        <p style={{color: "#73737F", fontSize: "16px", marginLeft: "10px", marginTop: "5px", fontWeight: "400", listStyle: "none", display: "flex"}}>  A cool feature</p>   
        </div>
        <div style={{display: "flex",  marginLeft: "30px"}}>
-       <IoCheckmark size={"25px"} color={"#CCABF7"}  />
+       <IoCheckmarkSharp size={"25px"} color={"#CCABF7"}  />
        <p style={{color: "#73737F", fontSize: "16px", marginLeft: "10px", marginTop: "5px", fontWeight: "400", listStyle: "none", display: "flex"}}>  A basic feature</p>   
        </div>
        <div style={{display: "flex",  marginLeft: "30px"}}>
-       <IoCheckmark size={"25px"} color={"#CCABF7"}  />
+       <IoCheckmarkSharp size={"25px"} color={"#CCABF7"}  />
        <p style={{color: "#73737F", fontSize: "16px", marginLeft: "10px", marginTop: "5px", fontWeight: "400", listStyle: "none", display: "flex"}}>A top feature with limitations</p>   
        </div>
        <div style={{display: "flex",  marginLeft: "30px"}}>
-       <IoCheckmark size={"25px"} color={"#CCABF7"}  />
+       <IoCheckmarkSharp size={"25px"} color={"#CCABF7"}  />
        <p style={{color: "#73737F", fontSize: "16px", marginLeft: "10px", marginTop: "5px", fontWeight: "400", listStyle: "none", display: "flex"}}>An incredible feature so useful</p>   
        </div>
        <div style={{display: "flex",  marginLeft: "30px"}}>
-       <IoCheckmark size={"25px"} color={"#CCABF7"}  />
+       <IoCheckmarkSharp size={"25px"} color={"#CCABF7"}  />
        <p style={{color: "#73737F", fontSize: "16px", marginLeft: "10px", marginTop: "5px", fontWeight: "400", listStyle: "none", display: "flex"}}> A premium feature</p>   
        </div>
        <div style={{display: "flex",  marginLeft: "30px"}}>
-       <IoCheckmark size={"25px"} color={"#CCABF7"}  />
+       <IoCheckmarkSharp size={"25px"} color={"#CCABF7"}  />
        <p style={{color: "#73737F", fontSize: "16px", marginLeft: "10px", marginTop: "5px", fontWeight: "400", listStyle: "none", display: "flex"}}>You need this feature</p>   
        </div>
           
