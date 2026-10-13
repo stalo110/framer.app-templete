@@ -7,12 +7,20 @@ import { apiRoutes } from "./routes/index.js";
 
 export const app = express();
 const allowedOrigin = process.env.WEB_ORIGIN ?? "http://localhost:5173";
+const allowedOrigins = new Set([allowedOrigin]);
+if (process.env.NODE_ENV !== "production") {
+  allowedOrigins.add("http://localhost:5173");
+  allowedOrigins.add("http://localhost:5174");
+}
 
 app.disable("x-powered-by");
 app.use(helmet());
 app.use(
   cors({
-    origin: allowedOrigin,
+    origin: (origin, callback) => {
+      if (!origin || allowedOrigins.has(origin)) callback(null, true);
+      else callback(null, false);
+    },
     methods: ["GET", "POST"],
     allowedHeaders: ["Content-Type"],
   }),
