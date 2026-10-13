@@ -1,0 +1,11 @@
+import { Router } from "express";
+import { categoryRoutes } from "./category.routes.js";
+import { eventRoutes } from "./event.routes.js";
+import { inquiryRoutes } from "./inquiry.routes.js";
+import { registrationRoutes } from "./registration.routes.js";
+
+export const apiRoutes = Router();
+apiRoutes.use("/categories", categoryRoutes);
+apiRoutes.use("/registrations", registrationRoutes);
+apiRoutes.use("/events", eventRoutes);
+apiRoutes.use("/inquiries", inquiryRoutes);
