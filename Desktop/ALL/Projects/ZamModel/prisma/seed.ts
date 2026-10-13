@@ -48,7 +48,7 @@ async function main() {
   });
   await prisma.event.upsert({
     where: { slug: "sample-open-audition-day" },
-    update: {},
+    update: { registrationFeeKobo: 500000 },
     create: {
       title: "Open Audition Day",
       slug: "sample-open-audition-day",
@@ -59,6 +59,7 @@ async function main() {
       venue: "Venue to be confirmed",
       categoryId: audition.id,
       isSample: true,
+      registrationFeeKobo: 500000,
     },
   });
 }

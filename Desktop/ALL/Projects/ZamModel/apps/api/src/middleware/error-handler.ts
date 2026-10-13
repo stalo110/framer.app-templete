@@ -1,6 +1,7 @@
 import type { ErrorRequestHandler } from "express";
 import multer from "multer";
 import { ZodError } from "zod";
+import { HttpError } from "../lib/http-error.js";
 
 export const errorHandler: ErrorRequestHandler = (
   error,
@@ -15,6 +16,10 @@ export const errorHandler: ErrorRequestHandler = (
         error: "Please check the submitted fields.",
         details: error.flatten().fieldErrors,
       });
+    return;
+  }
+  if (error instanceof HttpError) {
+    response.status(error.statusCode).json({ error: error.message });
     return;
   }
   if (error instanceof multer.MulterError || error?.name === "MulterError") {

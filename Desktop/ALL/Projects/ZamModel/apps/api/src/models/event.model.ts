@@ -7,4 +7,5 @@ export const eventModel = {
       orderBy: { eventDate: "asc" },
       include: { category: { select: { name: true, slug: true } } },
     }),
+  findById: (id: number) => prisma.event.findUnique({ where: { id } }),
 };

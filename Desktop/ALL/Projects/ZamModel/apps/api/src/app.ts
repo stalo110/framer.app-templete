@@ -17,6 +17,7 @@ app.use(
     allowedHeaders: ["Content-Type"],
   }),
 );
+app.use("/api/payments/webhook", express.raw({ type: "application/json" }));
 app.use(express.json({ limit: "32kb" }));
 app.get("/api/health", (_request, response) => response.json({ status: "ok" }));
 app.use(

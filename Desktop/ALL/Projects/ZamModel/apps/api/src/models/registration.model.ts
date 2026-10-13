@@ -23,4 +23,9 @@ export const registrationModel = {
       select: { id: true, status: true, createdAt: true },
     });
   },
+  findPaymentDetails: (id: string) =>
+    prisma.registration.findUnique({
+      where: { id },
+      select: { id: true, email: true, status: true },
+    }),
 };
